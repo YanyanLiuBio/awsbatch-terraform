@@ -1,0 +1,36 @@
+# Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Exclude override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Include .terraform.lock.hcl to ensure consistent provider versions
+# across different environments. However, if you prefer to exclude it, 
+# uncomment the line below:
+# .terraform.lock.hcl
+
+# Include plugin cache directory
+.terraform.tfstate.lock.info
+
+# Ignore variables files that may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Ignore CLI configuration files
+.terraformrc
+terraform.rc
+
+
+# temp doc file
+README_temp.md
